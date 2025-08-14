@@ -1,0 +1,25 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "parkingSlots",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bookingHistory",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
